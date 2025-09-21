@@ -24,6 +24,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
+#include <signal.h>
 
 #ifndef likely
 #define likely(x) __builtin_expect(!!(x), 1)
