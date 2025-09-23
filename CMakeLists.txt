@@ -3,7 +3,7 @@ project(tlog)
 
 include(GNUInstallDirs)
 
-add_library(tlog SHARED)
+add_library(tlog)
 target_sources(tlog PRIVATE tlog.c)
 
 install(TARGETS tlog 
